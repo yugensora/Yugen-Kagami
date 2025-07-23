@@ -1,96 +1,68 @@
 ---
 layout: default
-classic_layout: true
 ---
 
-<div class="minimal-wrapper" style="display: grid; grid-template-columns: 1fr 2fr; gap: 40px; max-width: 1200px; margin: 0 auto; text-align: left;">
+<div style="display: grid; grid-template-columns: 30% 70%; gap: 2rem; max-width: 1200px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
 
-<div class="minimal-sidebar" style="padding-right: 20px;">
+<!-- Left Column -->
+<div style="border-right: 1px solid #eaecef; padding-right: 2rem; height: 100vh; display: flex; flex-direction: column; justify-content: space-between;">
 
+<div>
 # DevSimple  
 *Web Development Experts*
 
 ![Our Team](https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80)  
 *Creating digital solutions since 2015*
 
-📍 **Location**: Remote  
-📞 **Phone**: (555) 123-4567  
 📧 **Email**: hello@devsimple.com  
+</div>
+
+<div style="margin-top: auto; padding-bottom: 2rem;">
+© 2025 DevSimple  
+[Privacy Policy](#privacy){: style="color: #0366d6; text-decoration: none;"}
+</div>
 
 </div>
 
-<div class="minimal-content">
+<!-- Right Column -->
+<div style="padding-left: 1rem;">
+
+## We Build Digital Experiences  
+Specializing in modern web solutions for businesses and startups.  
+
+---
+
+## About Us  
+We're a team of passionate developers focused on:  
+- Clean, maintainable code  
+- Responsive designs  
+- Performance optimization  
+
+---
 
 ## Services  
 **Custom Development**  
 - React/Vue frontends  
 - Node.js/Python backends  
-- API integrations  
 
-**E-Commerce Solutions**  
+**E-Commerce**  
 - Shopify/WordPress  
-- Payment gateways  
-- Inventory systems  
+- Payment integrations  
 
 **Optimization**  
 - SEO strategy  
-- Performance audits  
-- Accessibility fixes  
+- Speed improvements  
 
 ---
 
-## Recent Work  
+## Our Work  
 **FinTech Dashboard**  
-Built with React + D3.js visualization  
+Built with React + D3.js  
 
 **Education Platform**  
-LMS with SCORM compliance  
+LMS with course management  
 
-[View full portfolio →](#work){: .btn}  
-
----
-
-## Contact  
-<form style="margin-top: 2rem;">
-  <input type="text" placeholder="Your Name" style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ddd;">
-  <input type="email" placeholder="Email" style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ddd;">
-  <textarea placeholder="Message" style="width: 100%; height: 120px; padding: 8px; border: 1px solid #ddd;"></textarea>
-  <button type="submit" style="background: #2c3e50; color: white; border: none; padding: 10px 20px; margin-top: 10px; cursor: pointer;">Send Message</button>
-</form>
+[View all projects →](#work){: style="color: #0366d6; text-decoration: none;"}
 
 </div>
 </div>
-
-<style>
-.minimal-wrapper {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  line-height: 1.6;
-  color: #24292e;
-}
-
-.btn {
-  display: inline-block;
-  padding: 6px 12px;
-  background: #2c3e50;
-  color: white;
-  text-decoration: none;
-  border-radius: 3px;
-  font-size: 14px;
-}
-
-img {
-  max-width: 100%;
-  border-radius: 3px;
-  margin: 15px 0;
-}
-
-h1, h2, h3 {
-  border-bottom: 1px solid #eaecef;
-  padding-bottom: 0.3em;
-}
-
-form input, form textarea {
-  font-family: inherit;
-  font-size: inherit;
-}
-</style>
