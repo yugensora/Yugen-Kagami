@@ -1,3 +1,5 @@
-title: Yugen Kagami
-theme: jekyll-theme-minimal
-description: Web development services 
+title: Your Site Name
+description: Web development services
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
