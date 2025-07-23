@@ -1,6 +1,1 @@
-/* Force classic Minimal theme columns */
-.container {
-  display: grid !important;
-  grid-template-columns: 30% 70% !important;
-  gap: 2rem;
-}
+
