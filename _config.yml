@@ -1,4 +1,5 @@
 title: Yugen Kagami
 description: Web development services
-baseurl: ""  # Leave empty for username.github.io
-jekyll_theme: minimal  # ← New 2025 format
+baseurl: ""
+jekyll_theme: minimal
+minimal: true
