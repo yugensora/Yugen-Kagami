@@ -3,3 +3,6 @@ description: Web development services
 baseurl: ""
 jekyll_theme: minimal
 minimal: true
+layout_options:
+  classic_columns: true  # Forces two-column layout
+  sidebar: right         # Optional: left/right
