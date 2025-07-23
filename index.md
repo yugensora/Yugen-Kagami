@@ -3,56 +3,94 @@ layout: default
 classic_layout: true
 ---
 
-<div class="minimal-columns">
-  <div class="minimal-left">
+<div class="minimal-wrapper" style="display: grid; grid-template-columns: 1fr 2fr; gap: 40px; max-width: 1200px; margin: 0 auto; text-align: left;">
 
-## DevSimple  
-*Clean Code, Clear Results*
+<div class="minimal-sidebar" style="padding-right: 20px;">
 
-![Web Development](https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80)  
-*Modern web development*  
+# DevSimple  
+*Web Development Experts*
+
+![Our Team](https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80)  
+*Creating digital solutions since 2015*
 
 📍 **Location**: Remote  
+📞 **Phone**: (555) 123-4567  
 📧 **Email**: hello@devsimple.com  
 
-  </div>
+</div>
 
-  <div class="minimal-right">
+<div class="minimal-content">
 
 ## Services  
-### Custom Development  
-- Responsive websites  
+**Custom Development**  
 - React/Vue frontends  
 - Node.js/Python backends  
+- API integrations  
 
-### E-Commerce  
+**E-Commerce Solutions**  
 - Shopify/WordPress  
-- Payment integrations  
+- Payment gateways  
 - Inventory systems  
 
-### Optimization  
-- SEO audits  
-- Performance tuning  
+**Optimization**  
+- SEO strategy  
+- Performance audits  
 - Accessibility fixes  
 
 ---
 
 ## Recent Work  
 **FinTech Dashboard**  
-Built with React + D3.js  
+Built with React + D3.js visualization  
 
-**E-Learning Platform**  
-LMS with SCORM support  
+**Education Platform**  
+LMS with SCORM compliance  
 
-[View portfolio →](#)  
+[View full portfolio →](#work){: .btn}  
 
 ---
 
 ## Contact  
-```html
-<form>
-  <input type="text" placeholder="Name" style="width:100%; margin-bottom:1rem; padding:0.5rem;">
-  <input type="email" placeholder="Email" style="width:100%; margin-bottom:1rem; padding:0.5rem;">
-  <textarea placeholder="Message" style="width:100%; height:100px; padding:0.5rem;"></textarea>
-  <button type="submit" style="margin-top:1rem; padding:0.5rem 1rem; background:#2c3e50; color:white; border:none;">Send</button>
+<form style="margin-top: 2rem;">
+  <input type="text" placeholder="Your Name" style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ddd;">
+  <input type="email" placeholder="Email" style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ddd;">
+  <textarea placeholder="Message" style="width: 100%; height: 120px; padding: 8px; border: 1px solid #ddd;"></textarea>
+  <button type="submit" style="background: #2c3e50; color: white; border: none; padding: 10px 20px; margin-top: 10px; cursor: pointer;">Send Message</button>
 </form>
+
+</div>
+</div>
+
+<style>
+.minimal-wrapper {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #24292e;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #2c3e50;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 3px;
+  margin: 15px 0;
+}
+
+h1, h2, h3 {
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
+}
+
+form input, form textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+</style>
