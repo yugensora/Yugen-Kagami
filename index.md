@@ -1,5 +1,6 @@
 ---
 layout: default
+classic_layout: true  # Key for 2025 Minimal theme
 ---
 
 *Elegant websites. Engineered to last.*  
