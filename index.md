@@ -2,8 +2,7 @@
 layout: default
 ---
 
-# Web Development Services  
-*Clean, fast, and responsive websites tailored to your business.*  
+*Elegant websites. Engineered to last.*  
 
 [Get Started →](#contact){: .btn}  
 
