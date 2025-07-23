@@ -3,6 +3,19 @@ layout: default
 classic_layout: true  # Key for 2025 Minimal theme
 ---
 
+<div class="minimal-columns">
+  <div class="minimal-left">
+    ## Left Column
+    - Content here  
+    - Lists work  
+    - [Links](#) too
+  </div>
+  <div class="minimal-right">
+    ## Right Column  
+    **Markdown** works alongside HTML!
+  </div>
+</div>
+
 *Elegant websites. Engineered to last.*  
 
 [Get Started →](#contact){: .btn}  
